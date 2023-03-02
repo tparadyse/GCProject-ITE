@@ -6,7 +6,7 @@ Link: [Link a este design doc](#)
 
 Author(s): Diaz Osuna Juan Ernesto
 
-Status: [Draft, Ready for review, In Review, Reviewed]
+Status: [Draft<!--, Ready for review, In Review, Reviewed-->]
 
 Last update: 03-02-2023
 
@@ -25,18 +25,18 @@ Last update: 03-02-2023
 
 ## Links
 
-- [Un link](#)
-- [Otro link](#)
+- [](#)
+- [](#)
 
 ## Objectives
 
 <!--_Que y porque estamos haciendo esto?_-->
 
-En este proyecto se implementara un sistema web para facilitar a los usuarios la obtencion de informacion a la hora de querer adquirir una nueva targeta grafica (NVIDEA & AMD).
+In this project, a web system is implemented to make it easier for users to obtain information when they want to purchase a new graphics card (NVIDEA & AMD).
 
 <!--_Incluye contexto para las personas que no están familiarizadas con el proyecto._-->
 
-La mayoria de los usuarios que estan en busca de una nueva targeta grafica no siempre saben que especificaciones o cuales son las diferencias que cada una de estas contiene, dificultando la adquisicion de una de estas para su uso adecuado, por lo cual este sistema web se enfocara principalmente en un buscador por especificaciones tanto generales como especificas, ademas de darle un enfoque visual mas agradable al integrar disintas
+Most of the users who are looking for a new graphics card do not always know what specifications or what are the differences that each of these contains, making it difficult to acquire one of these for its proper use, for which this web system is It will focus mainly on a search engine for both general and specific specifications, in addition to giving it a more pleasant visual approach by integrating different
 
 <!--_Mantenlo corto, elabora en **Background, Overview y Detailed Design**_-->
 
@@ -45,18 +45,18 @@ La mayoria de los usuarios que estan en busca de una nueva targeta grafica no si
 ## Goals
 
 - Goasl
-  - Los usuarios que ingresen a la pagina puedan acceder a la pagina web para indagar en las diferentes especificaciones que las targetas graficas poseen y saber cual es la que mejor se adecua a sus necesidades
+  - Users who enter the page can access the web page to investigate the different specifications that graphics cards have and find out which one best suits their needs.
 
 ## Non-Goals
 
 - Non-Goals
-  - Precios por paginas de terceros o enlaces externos
+  - Prices for third-party pages or external links
 
 ## Background
 
 <!--_Cuál es el contexto de este proyecto?_-->
 
-Implementar un sistema web que sea capaz de ayudar a los usuarios a poder visualizar de manera mas rapida y eficiente los distintos componentes de targetas graficas en existencia para sus futuras adquisiciones referente a sus necesidades.
+Implement a web system that is capable of helping users to be able to visualize in a faster and more efficient way the different components of graphic cards in existence for their future acquisitions regarding their needs.
 
 <!--_Incluye recursos, como otros design docs si es necesario_-->
 
