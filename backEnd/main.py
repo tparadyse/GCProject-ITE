@@ -31,13 +31,41 @@ app = Flask(__name__)
 def main():
     return "SUG"
 
-@app.route("/bye")
-def adios():
-    return "BYE SUG"
-
-@app.route("/api/sql/test")
+@app.route("/model")
 def apisql():
-    cursor.execute("SELECT * FROM indice")
+    cursor.execute("SELECT * FROM model")
+    data = []
+    for row in cursor:
+        data.append(row)
+    return jsonify(data)
+
+@app.route("/brand")
+def apisql():
+    cursor.execute("SELECT * FROM brand")
+    data = []
+    for row in cursor:
+        data.append(row)
+    return jsonify(data)
+
+@app.route("/technologic")
+def apisql():
+    cursor.execute("SELECT * FROM technologic")
+    data = []
+    for row in cursor:
+        data.append(row)
+    return jsonify(data)
+
+@app.route("/amd_graphics")
+def apisql():
+    cursor.execute("SELECT * FROM maingraphics WHERE technologic_name = amd")
+    data = []
+    for row in cursor:
+        data.append(row)
+    return jsonify(data)
+
+@app.route("/nvidea_graphics")
+def apisql():
+    cursor.execute("SELECT * FROM maingraphics WHERE technologic_name = nvidea")
     data = []
     for row in cursor:
         data.append(row)
